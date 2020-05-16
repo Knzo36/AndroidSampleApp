@@ -10,7 +10,20 @@
         android:id="@+id/text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:lineSpacingMultiplier="1.5"
+        android:ellipsize="end"
+        android:maxLines="2"
         android:text="サポートはゴリラです。お問い合わせはウホウホまたは電話番号ウッホッホからお願いします。" />
-    
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="0.7"
+        android:contentDescription="ゴリラ"
+        android:scaleX="0.5"
+        android:scaleY="0.5"
+        app:srcCompat="@drawable/gorila" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

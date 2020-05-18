@@ -6,29 +6,10 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <EditText
-        android:id="@+id/txtNamet"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:text="Name"
-        tools:ignore="MissingConstraints" />
-
-    <Button
-        android:id="@+id/btnSend"
+    <ListView
+        android:id="@+id/list"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="btnSend_onClick"
-        android:text="soしん"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="-32dp"
-        tools:layout_editor_absoluteY="341dp" />
-
-    <TextView
-        android:id="@+id/txtResult"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="696dp" />
+        android:entries="@array/ゴリラ" />
+    
 </androidx.constraintlayout.widget.ConstraintLayout>

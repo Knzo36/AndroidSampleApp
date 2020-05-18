@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string-array name="ゴリラ">
+        <item>ウホ</item>
+        <item>ウホホ</item>
+        <item>ウホホホ</item>
+        <item>ウホホホホ</item>
+    </string-array>
 </resources>

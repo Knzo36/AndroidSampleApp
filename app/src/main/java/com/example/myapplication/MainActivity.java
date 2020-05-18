@@ -14,10 +14,4 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-
-    public void btnSend_onClick(View view) {
-        EditText txtName = findViewById(R.id.txtNamet);
-        TextView txtResult = findViewById(R.id.txtResult);
-        txtResult.setText(String.format("ウホオオオオオオオ、%s!", txtName.getText()));
-    }
 }
